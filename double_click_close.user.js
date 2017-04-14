@@ -10,16 +10,12 @@
 
 (function() {
     'use strict';
-
-    // Your code here...
-    /*   $("div").bind("click", function() {
-        alert('wcd');
-    })
-    */
     document.addEventListener("dblclick", function() {
        // alert('wcd');
      //   window.opener=null;
         open(location, '_self').close();
+	window.open('','_self');
+        window.close();
        // netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserWrite");
      //   window.open('','_self');
      //   window.close();
